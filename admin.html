@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link href="libs/fonts.css" rel="stylesheet">
+    <title>Админ панель</title>
+</head>
+<div class="header" style="left: 100px;"><header>Админ панель</header></div>
+<body>
+
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+                        Меню
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Главная</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin.html" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Админ панель</span></a>
+                        </li>
+                        <li>
+                            <a href="auth.html" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Выйти</span></a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="controls p-3">
+                <form class="form-inline">
+                    <button class="btn btn-dark">Добавить сотрудника</button>
+                    <button class="btn btn-dark mx-2">Добавить Отдел</button>
+                </form>
+        </div>
+    </div>
+
+</body>
+</html>
