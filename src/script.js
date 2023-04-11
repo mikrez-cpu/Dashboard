@@ -118,7 +118,7 @@ function appendComponents(card){
             <form class="row mx-auto justify-content-between">
                 <button class="invisibleBtn">
                     <span class="material-icons delete" onclick="deleteCard(${card.id.toString()})">
-                        <img src="libs/delete.svg">
+                        <img src="/assets/libs/delete.svg">
                     </span>
                 </button>
             </form>
@@ -284,7 +284,7 @@ function authBtn(){
 function regBtn(){
     reg_password_input = document.getElementById("typeRegPassword").value;
     reg_password_confirm_input = document.getElementById("typeRegPasswordConfirmation").value;
-    if (reg_password_input = reg_password_confirm_input)
+    if (reg_password_input == reg_password_confirm_input)
     {
     alert('Регистрация прошла успешно! Сейчас вы будете перенаправлены на страницу авторизации');
     window.location.href = 'auth.html';
